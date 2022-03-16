@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Digital";
+  src: url("../font/digital_7.ttf");
+  font-style: normal;
+  font-weight: bolder;
+}
+p {
+  font-size: 120px;
+  font-family: "Digital";
+  color: #a52a2a;
+}
+.conP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  align-items: center;
+}
+.contBtn {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  width: 155px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 30px;
+  border: none;
+  background: #f8cf2c;
+  color: brown;
+}
+body {
+  background-color: #335155;
+}
