@@ -5,9 +5,10 @@
   font-weight: bolder;
 }
 p {
+  width: 246px;
   font-size: 120px;
   font-family: "Digital";
-  color: #a52a2a;
+  color: #d43b3b;
 }
 .conP {
   display: flex;

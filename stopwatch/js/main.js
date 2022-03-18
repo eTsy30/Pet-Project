@@ -8,7 +8,7 @@ let sec = 0
 let min = 0
 
 function startTimer() {
-    console.log(1);
+
     clearInterval(interval)
     interval = setInterval(() => {
         sec++
@@ -26,7 +26,7 @@ function startTimer() {
         }
 
 
-    }, 1000)
+    }, 10)
 }
 function stopInterval() {
     console.log(2);
